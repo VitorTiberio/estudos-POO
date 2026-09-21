@@ -17,3 +17,10 @@ class Carro:
   def exibir_informacoes(self):
     print(f'Marca: {self.marca}, Modelo: {self.modelo})
 ```
+
+Agora, para criarmos um objeto, instânciamos a classe. No caso, cada objeto terá suas próprias características, mas seguirá o modelo "padrão" da classe, como mostra o exempo abaixo: 
+
+```python
+meu_carro = Carro("Toyota", "Corolla")
+meu_carro.exibir_informações()
+```
