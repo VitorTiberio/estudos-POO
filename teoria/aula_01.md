@@ -1,0 +1,19 @@
+Primeiramente, para começarmos a compreender os conceitos fundamentais de POO, precisamos entender o que é esse método de programação dentro do Python.
+
+Então, o POO é uma abordagem que eleva a qualidade e a eficiência do código, principalmente quando queremos reaproveita-lo ou deixar ele modular. 
+
+Ou seja, em códigos pequenos, a definição de funções é o suficiente para otimizar um código, mas quando o mesmo fica muito complexo, até mesmo o uso das funções começa a deixa-lo complexo... 
+
+
+Então, vamos iniciar com algumas definições. A primeira que é muito importante é a definição de Classe. No caso, uma classe em uma lunguagem de programação é como um molde para criar objetos. Ela define atributos (características) e métodos (ações) que os objetos criados a partir dela terão. 
+Por exemplo, uma classe Carro pode ter atributos como “marca” e “modelo” e um método para “exibir_informações”, como mostra o exemplo abaixo: 
+
+```python
+class Carro:
+  def __init__(self, marca, modelo):
+    self.marca = marca
+    self.modelo = modelo
+
+  def exibir_informacoes(self):
+    print(f'Marca: {self.marca}, Modelo: {self.modelo})
+```
