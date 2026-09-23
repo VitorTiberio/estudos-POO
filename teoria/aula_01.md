@@ -10,7 +10,7 @@ Ou seja, em códigos pequenos, a definição de funções é o suficiente para o
 
 ---
 
-## Definição de Classe e Objeto
+## Definição de Classe
 
 Então, vamos iniciar com algumas definições. 
 
@@ -42,6 +42,9 @@ class Aluno:
     else:
       return "Reprovado"
 ```
+
+---
+## Definição de Objeto
 
 Agora, para criarmos um objeto, instânciamos a classe. No caso, cada objeto terá suas próprias características, mas seguirá o modelo "padrão" da classe, como mostra o exempo abaixo: 
 
