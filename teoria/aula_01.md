@@ -52,3 +52,10 @@ Agora, para criarmos um objeto, instânciamos a classe. No caso, cada objeto ter
 meu_carro = Carro("Toyota", "Corolla")
 meu_carro.exibir_informações()
 ```
+
+---
+## Método __init__ e self
+
+O __init__ Esse método é chamado automaticamente durante a criação de um objeto e normalmente é utilizado para inicializar seus atributos.
+
+Já o self representa a instância que está executando aquele método. 
