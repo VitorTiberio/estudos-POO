@@ -75,6 +75,20 @@ print(aluno.nome)
 aluno.apresentar()
 aluno.estudar()
 ```
+Embora Aluno não tenha declarado nome nem apresentar(), ele herdou esses elementos de Pessoa. 
+
+Agora, suponha que Aluno tenha também um número de matrícula: 
+```python
+class Aluno(Pessoa):
+    def __init__(self, nome, idade, matricula):
+        super().__init__(nome, idade)
+        self.matricula = matricula
+```
+
+A parte: super().__init__(nome,idade) chama o construtor da classe pai. Ou seja, é a mesma coisa que falar: "inicialize para mim a parte referente a nome e idade". 
+
+---
+
 ## Polimorfismo ## 
 
 ## Abstração ## 
