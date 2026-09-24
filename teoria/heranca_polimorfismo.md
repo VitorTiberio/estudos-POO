@@ -45,6 +45,36 @@ Ao invés de manipular diretamente o saldo.
 
 ## Herança ## 
 
+A herança permite criar uma classe nova a partir de uma classe existente. No caso, pense no caso de termos duas classes: Professor e Aluno. Ambos possuem características como nome, idade e CPF. Ao invés de recetir tudo, podemos criar uma classe geral: 
+
+```python
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    def apresentar(self):
+        print(f"Meu nome é {self.nome}")
+```
+Agora, podemos fazer: 
+```python
+class Aluno(Pessoa):
+    def estudar(self):
+        print("Estou estudando.")
+```
+
+A sintaxe: 
+```python
+class Aluno(Pessoa):
+```
+Significa que o Aluno herda de pessoa. Assim, podemos escrever: 
+
+```python
+aluno = Aluno("Vitor", 22)
+print(aluno.nome)
+aluno.apresentar()
+aluno.estudar()
+```
 ## Polimorfismo ## 
 
 ## Abstração ## 
