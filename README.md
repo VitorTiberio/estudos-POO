@@ -1,6 +1,8 @@
 # Programação Orientada a Objetos - POO # 
+---
 
 Esse repositório foi desenvolvido para armazenar informações sobre o estudo de POO. 
+
 ---
 ## Teoria ## 
 
