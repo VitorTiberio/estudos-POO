@@ -91,4 +91,34 @@ A parte: super().__init__(nome,idade) chama o construtor da classe pai. Ou seja,
 
 ## Polimorfismo ## 
 
+No POO, significa que objetos diferentes podem responder à mesma operação de maneiras diferentes. Por exemplo: 
+
+```python
+class Animal:
+    def emitir_som(self):
+        pass
+```
+Dessas, podemos criar duas subclasses: 
+```python
+class Cachorro(Animal):
+    def emitir_som(self):
+        print("Au au!")
+
+class Gato(Animal):
+    def emitir_som(self):
+        print("Miau!")
+```
+
+Agora, fazemos: 
+```python
+cachorro = Cachorro()
+gato = Gato()
+
+cachorro.emitir_som()
+gato.emitir_som()
+```
+
+O método chamado é exatamente o mesmo: emitir_som(), mas o comportamento resultante depende do objeto. Isso é polimorfismo! 
+
+---
 ## Abstração ## 
