@@ -17,3 +17,7 @@ Para acessar a teoria sobre:
 * [Exercício 4](exercicios/poo_4.py)
 * [Exercício 5](exercicios/poo_5.py)
 * [Exercício 6](exercicios/poo_6.py)
+* [Exercício 7](exercicios/poo_7.py)
+* [Exercício 8](exercicios/poo_8.py)
+* [Exercício 9](exercicios/poo_9.py)
+* [Exercício 10](exercicios/poo_10.py)
