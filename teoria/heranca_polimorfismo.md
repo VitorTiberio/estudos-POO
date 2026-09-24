@@ -41,6 +41,8 @@ conta.consultar_saldo()
 ```
 Ao invés de manipular diretamente o saldo. 
 
+Para saber mais sobre encapsulamento, clique [Aqui](https://www.datacamp.com/pt/tutorial/encapsulation-in-python-object-oriented-programming)
+
 ---
 
 ## Herança ## 
