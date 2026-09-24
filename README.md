@@ -9,3 +9,4 @@ Para acessar a teoria sobre:
 
 --- 
 ## Exercícios ## 
+* [Exercício 1](exercicios/poo_1.py)
